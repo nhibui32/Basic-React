@@ -6,8 +6,8 @@ import React from 'react';
 function  MyComponent() {
         return (
             <div>
-                 my first component hello 
-                 {Math.random()}
+                 <p>A random number: {Math.random()}</p>
+                 
             </div>
         );
     }
